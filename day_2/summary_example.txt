@@ -1,0 +1,33 @@
+The meeting took place on February 18, 2021, and was focused on the engineering key review at GitLab. Eric Johnson, the meeting organizer, proposed breaking up the meeting into four department key reviews: engineering, development quality, security, and UX infrastructure and support. The reasons for this proposal were increased visibility, the ability to go deeper into each department's work, increased objectivity for managers, more time for Eric to focus on new markets, and a shift into a question-asking role rather than generating content and answering questions. To avoid adding three new meetings to stakeholders' calendars, Eric suggested a two-month rotation, with development quality going in month one and security and UX going in month two. The group expressed support for this proposal, with some members suggesting that the larger development department may need more frequent meetings. However, they agreed to try the proposed rotation and remain flexible.
+
+The discussion then moved to the R&D overall MR rate and R&D wider MR rate, which are top-level key performance indicators (KPIs) for engineering. The wider MR rate includes both community contributions and community merge requests (MRs), while the overall MR rate includes all MRs. Eric raised concerns about the duplication between the two rates and suggested simplifying the metrics. Lily confirmed that the wider MR rate only captures community contributions, and Eric proposed tracking the percentage of total MRs that come from the community as a KPI instead. The group agreed with this proposal and decided to make the transition.
+
+Christopher mentioned a lag issue with metrics updates in the month of February, particularly in development and MR development. The data team was working on resolving this issue. The discussion then shifted to the Postgres replication issue and who should be responsible for addressing it. Eric clarified that the data engineering team should be the DRI (directly responsible individual) for the issue, with infrastructure owning the data source. They discussed the need for a dedicated host, tuning improvements, and addressing overall demand on the database layer. Steve expressed his willingness to partner with Eric on this issue and suggested focusing on getting the biggest impact for the resources allocated.
+
+Mech provided an update on defect tracking and meeting service level objectives (SLOs). They mentioned a first iteration performance indicator (PI) that shows the percentage of defects meeting SLOs, with S1 defects at 80% and S2 defects at 60%. They also mentioned working on measuring the average age of open bugs to get a holistic view of the backlog. Craig raised a concern about a spike in mean time to close for S2 defects and asked for insights. Mech noted that they hadn't seen a dip in age or overall count and suggested digging deeper into the issue. Christy suggested that the change in severity levels across the board may be a factor to consider.
+
+MAIN TAKEAWAYS:
+- The proposal to break up the meeting into four department key reviews was supported, with a two-month rotation plan.
+- The R&D wider MR rate will be transitioned to tracking the percentage of total MRs that come from the community.
+- There is a lag issue with metrics updates in February, particularly in development and MR development.
+- The Postgres replication issue will be addressed by the data engineering team, with infrastructure support.
+- Defect tracking and meeting SLOs are ongoing, with a focus on improving the average age of open bugs.
+
+ACTION ITEMS:
+- Lily and Max will work on transitioning the R&D wider MR rate to tracking the percentage of total MRs from the community.
+- Steve will provide an update on the Postgres replication issue in the infrastructure key review.
+- Mech will investigate the spike in mean time to close for S2 defects and provide further insights.
+- Christy will explore if the change in severity levels impacted the metrics.
+
+DECISIONS:
+- The meeting will be broken up into four department key reviews with a two-month rotation plan.
+- The R&D wider MR rate will be transitioned to tracking the percentage of total MRs from the community.
+
+OPEN QUESTIONS:
+- None mentioned.
+
+NEXT STEPS:
+- Lily and Max will work on transitioning the R&D wider MR rate.
+- Steve will provide an update on the Postgres replication issue in the infrastructure key review.
+- Mech will investigate the spike in mean time to close for S2 defects.
+- Christy will explore the impact of the change in severity levels on the metrics.

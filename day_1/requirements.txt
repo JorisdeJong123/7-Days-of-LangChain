@@ -1,0 +1,6 @@
+langchain
+openai
+youtube-transcript-api
+pytube
+tiktoken
+bs4

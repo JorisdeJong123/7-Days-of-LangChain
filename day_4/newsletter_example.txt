@@ -1,0 +1,15 @@
+Title: Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs
+Summary: This article explores different approaches for estimating the uncertainty of large language models (LLMs) without relying on model fine-tuning or proprietary information. The study introduces verbalize-based, consistency-based, and hybrid methods for benchmarking and evaluates their performance across various datasets and LLMs. The analysis reveals insights such as LLMs often exhibiting overconfidence when verbalizing their confidence and consistency-based methods outperforming verbalized confidences in most cases. The article concludes that hybrid methods show the most promising performance, but there is still room for improvement in confidence elicitation.
+Link: http://arxiv.org/abs/2306.13063v1
+
+Title: Towards Explainable Evaluation Metrics for Machine Translation
+Summary: This concept paper discusses the need for explainable evaluation metrics for machine translation, as current metrics based on large language models lack transparency. The article identifies key properties and goals of explainable machine translation metrics and provides a synthesis of recent techniques and approaches. It also explores explainable metrics based on generative models like ChatGPT and GPT4. The article envisions next-generation approaches, including natural language explanations, to improve the transparency and acceptance of high-quality metrics for machine translation.
+Link: http://arxiv.org/abs/2306.13041v1
+
+Title: Tracking public attitudes toward ChatGPT on Twitter using sentiment analysis and topic modeling
+Summary: This article investigates public attitudes towards ChatGPT, a chatbot powered by a large language model, using sentiment analysis and topic modeling techniques applied to Twitter data. The analysis reveals that the overall sentiment towards ChatGPT is largely neutral to positive across different occupation groups. The most popular topics mentioned in tweets related to ChatGPT include Artificial Intelligence, Search Engines, Education, Writing, and Question Answering.
+Link: http://arxiv.org/abs/2306.12951v1
+
+Title: Generative Multimodal Entity Linking
+Summary: This article introduces GEMEL, a simple yet effective method for multimodal entity linking (MEL) that leverages large language models (LLMs) for generating target entity names. Unlike previous complex MEL methods, GEMEL only fine-tunes a linear layer while keeping the vision and language model frozen. The approach utilizes in-context learning capability of LLMs and achieves state-of-the-art results on two well-established MEL datasets with minimal fine-tuning. The article highlights the potential of using LLMs in the MEL task for efficient and general solutions.
+Link: http://arxiv.org/abs/2306.12725v1

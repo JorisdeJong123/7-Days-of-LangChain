@@ -1,0 +1,12 @@
+langchain
+openai
+youtube-transcript-api
+pytube
+tiktoken
+bs4
+pypdf2
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2
+beautifulsoup4
+tabulate

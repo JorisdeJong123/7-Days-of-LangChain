@@ -1,0 +1,8 @@
+langchain
+openai
+tabulate
+tiktoken
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2
+beautifulsoup4
