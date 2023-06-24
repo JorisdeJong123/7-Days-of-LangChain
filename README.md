@@ -5,7 +5,7 @@
 Clone the repo or copy the code snippets you'd like to use.
 Run 
 
-<code>pip install -r requirements.txt to install required imports.</code>
+<code>pip install -r requirements.txt</code>
 
 # Want to know more about the code?
 
