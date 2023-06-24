@@ -3,7 +3,9 @@
 
 # How to start?
 Clone the repo or copy the code snippets you'd like to use.
-Run pip install -r requirements.txt to install required imports.
+Run 
+
+<code>pip install -r requirements.txt to install required imports.</code>
 
 # Want to know more about the code?
 
