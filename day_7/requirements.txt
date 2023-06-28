@@ -1,0 +1,8 @@
+langchain
+openai
+tiktoken
+unstructured
+youtube-transcript-api
+faiss-cpu
+pytube
+google-api-python-client
